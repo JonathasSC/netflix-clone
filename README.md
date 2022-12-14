@@ -1,7 +1,8 @@
-<image src="public\netflix-logo.png" style="
+<center>
+	<image src="public\netflix-logo.png" style="
 width: 300px;
-margin-left: 50%;
-margin-right: 50%;">
+: auto;">
+</center>
 
 # netflix-clone
 
