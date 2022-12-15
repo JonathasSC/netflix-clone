@@ -23,37 +23,42 @@ export default {
 			{
 				slug: 'originals',
 				title: 'Originais Netflix',
-				items: await basicFetch(`/discover/tv`)
+				items: await basicFetch(`/discover/tv?with_network=213&language=pt-br&api_key=${API_KEY}`)
 			},
 			{
 				slug: 'trending',
 				title: 'Recomendados para Você',
-				items: await basicFetch(``)
+				items: await basicFetch(`/trending/all/week?language=pt-br&api_key=${API_KEY}`)
 			},
 			{
 				slug: 'toprated',
 				title: 'Em alta',
-				items: await basicFetch(``)
+				items: await basicFetch(`/movie/top_rated?language=pt-br&api_key=${API_KEY}`)
 			},
 			{
 				slug: 'action',
 				title: 'Ação',
-				items: await basicFetch(``)
+				items: await basicFetch(`/discover/movie?with_genres=28&language=pt-br&api_key=${API_KEY}`)
 			},
 			{
 				slug: 'comedy',
 				title: 'Comédia',
-				items: await basicFetch(``)
+				items: await basicFetch(`/discover/movie?with_genres=35&language=pt-br&api_key=${API_KEY}`)
+			},
+			{
+				slug: 'horror',
+				title: 'Terror',
+				items: await basicFetch(`/discover/movie?with_genres=27&language=pt-br&api_key=${API_KEY}`)
 			},
 			{
 				slug: 'romance',
 				title: 'Romance',
-				items: await basicFetch(``)
+				items: await basicFetch(`/discover/movie?with_genres=10749&language=pt-br&api_key=${API_KEY}`)
 			},
 			{
 				slug: 'documentary',
 				title: 'Documentários',
-				items: await basicFetch(``)
+				items: await basicFetch(`/discover/movie?with_genres=99&language=pt-br&api_key=${API_KEY}`)
 			},
 		];
 	}
