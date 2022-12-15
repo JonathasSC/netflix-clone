@@ -13,4 +13,4 @@ width: 300px;">
 
 ### Ferramentas Utilizadas:
 
-![vscode](https://img.shields.io/badge/VS%20CODE-0078d7?&logo=visualstudiocode&logoColor=white&style=flat&logoWidth=30) ![node.js](https://img.shields.io/badge/NODE.JS-68A063?&logo=node.js&logoColor=303030&style=flat-square&logoWidth=30)
+![vscode](https://img.shields.io/badge/VS%20CODE-0078d7?&logo=visualstudiocode&logoColor=white&style=flat&logoWidth=30) ![node.js](https://img.shields.io/badge/NODE.JS-68A063?&logo=node.js&logoColor=303030&style=flat&logoWidth=30)
