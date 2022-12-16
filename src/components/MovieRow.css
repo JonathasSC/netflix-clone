@@ -31,4 +31,32 @@
 	transform: scale(1);
 }
 
+.movieRow--left,
+.movieRow--right {
+	position: absolute;
+	width: 40px;
+	height: 225px;
+	background-color: rgba(0, 0, 0, 0.555);
+	z-index: 998;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: .2s;
+	opacity: 0;
+}
 
+.movieRow--left {
+	left: 0;
+	rotate: 180deg;
+}
+
+.movieRow--right {
+	right: 0;
+}
+
+
+.movieRow:hover .movieRow--left,
+.movieRow:hover .movieRow--right{
+	opacity: 1;
+}
