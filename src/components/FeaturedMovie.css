@@ -14,3 +14,22 @@
 	background: linear-gradient(to right, #111 33%,transparent 70%);
 }
 
+.featured--name {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.featured--info {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.featured--points {
+	color: #46d369;
+}
+
+.featured--points, .featured--year, .featured--seasons{
+	margin-right: 15px;
+	display: inline-block;
+}
