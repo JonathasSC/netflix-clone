@@ -1,5 +1,5 @@
 <div align="center">
-<img  src="public\netflix-logo.png" style="
+<img  src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" style="
 width: 300px;">
 
 ## Neflix - Clone

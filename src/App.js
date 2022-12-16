@@ -3,6 +3,7 @@ import './App.css'
 import Tmdb from './Tmdb';
 import MovieRow from './components/MovieRow';
 import FeaturedMovie from './components/FeaturedMovie';
+import Header from './components/Header';
 
 export default () => {
 
@@ -29,6 +30,8 @@ export default () => {
 
 	return (
 		<div className='page'>
+
+			<Header/>
 
 			{featuredData && 
 				<FeaturedMovie item={featuredData}/>
