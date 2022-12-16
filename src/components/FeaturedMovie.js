@@ -28,10 +28,13 @@ export default ({item}) => {
 
 						<div className="featured--seasons">{item.number_of_seasons} temporada{item.number_of_seasons != 1 ? 's' : ''}</div>
 					</div>
+
 					<div className="featured--description">{item.overview}</div>
+
 					<div className="featured--buttons">
-						<a href={`/watch/${item.id}`}>► Assistir</a>
-						<a href={`/add/${item.id}`}>+ Minha Lista</a>
+						<a className="featured--watchbutton" href={`/watch/${item.id}`}>► Assistir</a>
+
+						<a className="featured--mylistbutton" href={`/add/${item.id}`}>+ Minha Lista</a>
 					</div>
 					<div className="featured--genres"><strong>Gêneros:</strong> {genres.join(', ')}</div>
 				</div>
