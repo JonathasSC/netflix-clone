@@ -10,6 +10,7 @@ header {
 	align-items: center;
 	padding: 0 30px;
 	background: transparent;
+	transition: all ease 1s;
 }
 
 .header--logo {
@@ -31,4 +32,5 @@ header {
 
 header.black {
 	background-color: #141414;
+	transition: 0.2s;
 }
