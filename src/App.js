@@ -64,6 +64,13 @@ export default () => {
 				Direitos de imagem para Netflix<br/>
 				Dados pego do site themoviedb.org<br/>
 			</footer>
+
+				
+			{movieList.length <= 0 && 
+				<div className='loading'>
+					<img src='https://hips.hearstapps.com/pop.h-cdn.co/assets/16/48/1480516731-4f155204-7266-486d-88a5-2018ff11f947.gif?resize=980:*' alt='carregando'></img>
+				</div>
+			}
 		</div>
 	)
 }
