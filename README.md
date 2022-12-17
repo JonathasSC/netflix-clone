@@ -52,16 +52,28 @@ E na parte de estrutura do site também foi uma otima maneira de aprender a toma
 ### Tela de entrada:
 
 Assim que acessamos será carregada a tela nesse formato com a imagem do filme/série, seu titulo e informações sobre a mesma. Podemos reparar lá encima que a barra de cabeçalho está transparente, isso mudará assim que a tela for rolada.
+&nbsp;
+     
+&nbsp;
+
 ![image1](/public/Image.png)
 
 ---
 #### Rolando a tela:
-Ao rolar a tela vemos como dito a cima o escurecimento do cabeçalho, que não precisa mais ficar transparente para dar enfase a imagem de fundo. E logo abaixo começamos a ver a lista do catálogo. 
+
+Ao rolar a tela vemos como dito a cima o escurecimento do cabeçalho, que não precisa mais ficar transparente para dar enfase a imagem de fundo. E logo abaixo começamos a ver a lista do catálogo.
+&nbsp;
+     
+&nbsp;
 ![image2](/public/Image2.png)
 
 ---
 #### Rolagem do catalogo e destaque:
 Ao colocar o ponteiro encima do catálogo vemos o aparecimento das setas para rolar e ver mais opções da catégoria. Ao colocar o ponteiro encima de um dos items, ele ganha um destaque aumentando o seu tamanho.
+&nbsp;
+     
+&nbsp;
+
 ![image3](/public/MovieList.gif)
 
 ---
