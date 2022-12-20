@@ -79,9 +79,8 @@ Ao colocar o ponteiro encima do catálogo vemos o aparecimento das setas para ro
 ---
 <div align='center'>
 	<h6>Créditos Abaixo</h6>
-	<a src='www.youtube.com/@bonieky'>Auxilio - Bonieky Lacerda</a>
-	<br>
-	<a src='www.netflix.com'>Direitos de imagem - Netflix</a>
-	<br>
-	<a src='www.themoviedb.org'>Dados coletatos - TheMovieDB</a>
 </div>
+
+Auxilio - [Bonieky Lacerda](www.youtube.com/@bonieky)
+Direitos de Imagem - [Netflix](www.netflix.com)
+Dados coletados - [TheMovieDB](www.themoviedb.org')
